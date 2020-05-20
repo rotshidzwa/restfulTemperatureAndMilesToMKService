@@ -8,7 +8,7 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-
+@Path("/conversion")
 public class ConversionServiceImpl implements ConversionService {
 
     private static final float CONVERSION_TEMP = 273.15F;
